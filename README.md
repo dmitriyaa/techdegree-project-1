@@ -9,7 +9,7 @@ In this project I modified the code for a basic web page by adding graphics, cus
 
 Here is a [link](https://dmitriyaa.github.io/techdegree-project-1) to live demo.
 
-### Other Treehouse projects
+## Other Treehouse projects
 [Project 1](https://github.com/dmitriyaa/techdegree-project-1)
 
 [Project 2](https://github.com/dmitriyaa/techdegree-project-2)

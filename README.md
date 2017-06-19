@@ -5,4 +5,4 @@ I modified the code for a basic web page by adding graphics, custom text, and a 
 
 [Here is a live demo](https://dmitriyaa.github.io/techdegree-project-1/)
 
-![creenshot of the website](https://raw.githubusercontent.com/dmitriyaa/techdegree-project-1/master/screenshot.png")
+![creenshot of the website](https://raw.githubusercontent.com/dmitriyaa/techdegree-project-1/master/screenshot.png)

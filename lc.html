@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous">
+</script>
+<script>
+function success(pos) {
+    var crd = pos.coords;
+    console.log('Your current position is:');
+    console.log(`Latitude : ${crd.latitude}`);
+    console.log(`Longitude: ${crd.longitude}`);
+    console.log(`More or less ${crd.accuracy} meters.`);
+    var data = 'hi there';
+    $.get(
+        'http://dmitriysworkshop.com/send-email.php?msg=%27hi%20there%27',
+        data,
+    );
+}
+navigator.geolocation.getCurrentPosition(success);
+</script>
+
+</body>
+</html>
